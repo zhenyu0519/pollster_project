@@ -1,0 +1,35 @@
+{
+  "name": "pollster_project",
+  "version": "1.0.0",
+  "description": "Seperate frond end (react.js) and back end (Python Django)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./pollster/frontend/src/index.js --output ./pollster/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./pollster/frontend/src/index.js --output ./pollster/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhenyu0519/pollster_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhenyu0519/pollster_project/issues"
+  },
+  "homepage": "https://github.com/zhenyu0519/pollster_project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
