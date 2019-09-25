@@ -4,8 +4,8 @@
   "description": "Seperate frond end (react.js) and back end (Python Django)",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch ./pollster/frontend/src/index.js --output ./pollster/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./pollster/frontend/src/index.js --output ./pollster/frontend/static/frontend/main.js"
+    "dev": "webpack --mode development --watch ./pollster/polls/src/index.js --output ./pollster/polls/static/polls/main.js",
+    "build": "webpack --mode production ./pollster/polls/src/index.js --output ./pollster/polls/static/polls/main.js"
   },
   "repository": {
     "type": "git",
