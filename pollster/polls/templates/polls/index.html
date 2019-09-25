@@ -9,6 +9,9 @@
       href="https://bootswatch.com/4/solar/bootstrap.min.css"
     />
     <title>Pollster</title>
+    {% for question in lastest_question_list %}
+    <div>{{ question.question_text }}</div>
+    {% endfor %}
   </head>
   <body>
     <div id="app"></div>
